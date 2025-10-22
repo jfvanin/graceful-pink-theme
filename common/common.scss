@@ -176,10 +176,12 @@ header.d-header {
   }
 }
 
-.d-header-icons .icon {
-  .d-icon {
-    fill: var(--tertiary);
-  }
+.header-sidebar-toggle .btn-icon .d-icon {
+  fill: var(--highlight);
+}
+
+.d-header-icons .icon .d-icon {
+  fill: var(--highlight);
 }
 
 .d-header-icons .icon:hover {
