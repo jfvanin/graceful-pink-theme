@@ -284,7 +284,6 @@ nav.post-controls {
   --d-sidebar-highlight-prefix-background: var(--secondary);
   --d-sidebar-highlight-hover-background: var(--tertiary-low);
   --d-sidebar-highlight-hover-icon: var(--tertiary);
-  --d-sidebar-link-active: var(--tertiary);
   --d-sidebar-link: '#2D1817';
   --d-sidebar-link-active: '#FDF2F2';
 }
@@ -302,9 +301,15 @@ nav.post-controls {
 
     .sidebar-section-link {
       color: var(--d-sidebar-link);
+      svg {
+        fill: var(--d-sidebar-link);
+      }
     }
     .active.sidebar-section-link {
-      color: var(--d-sidebar-link-active);
+      color: var(--d-sidebar-link-active) !important;
+      svg {
+        fill: var(--d-sidebar-link-active) !important;
+      }
     }
 
   }
