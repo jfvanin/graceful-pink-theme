@@ -38,6 +38,15 @@ body {
   }
 }
 
+.topic-list-body tr.selected td:first-of-type,
+.topic-list-body .item.selected td:first-of-type {
+  box-shadow: inset 2px 0 0 var(--tertiary);
+}
+
+.topic-list-body td.topic-list-data {
+  padding-left: 3px;
+}
+
 .topic-list-main-link,
 .topic-list .main-link {
   line-height: 1.2;
