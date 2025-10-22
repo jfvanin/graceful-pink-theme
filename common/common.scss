@@ -180,7 +180,9 @@ header.d-header {
   background: var(--tertiary-low);
 
   .d-icon {
-    color: var(--tertiary);
+    svg {
+      fill: var(--highlight) !important;
+    }
   }
 }
 
