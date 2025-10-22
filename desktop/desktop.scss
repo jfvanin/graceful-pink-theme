@@ -284,6 +284,9 @@ nav.post-controls {
   --d-sidebar-highlight-prefix-background: var(--secondary);
   --d-sidebar-highlight-hover-background: var(--tertiary-low);
   --d-sidebar-highlight-hover-icon: var(--tertiary);
+  --d-sidebar-link-active: var(--tertiary);
+  --d-sidebar-link: '#2D1817';
+  --d-sidebar-link-active: '#FDF2F2';
 }
 
 #main-outlet-wrapper {
@@ -296,6 +299,14 @@ nav.post-controls {
     height: calc(100vh - (var(--header-offset) + 60px));
 
     @include box-shadow;
+
+    .sidebar-section-link {
+      color: var(--d-sidebar-link);
+    }
+    .active.sidebar-section-link {
+      color: var(--d-sidebar-link-active);
+    }
+
   }
 
   .sidebar-footer-wrapper {
