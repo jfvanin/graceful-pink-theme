@@ -464,3 +464,23 @@ body.has-full-page-chat {
     margin-left: 4em;
   }
 }
+
+// When composer is "docked" inside the topic
+#reply-control.docked {
+  position: static !important;
+  margin: 1.5em 0;
+  box-shadow: none !important;
+  border: 1px solid var(--primary-low);
+  border-radius: 8px;
+  background: var(--primary-very-low);
+}
+
+// Optional: make it blend in better
+#reply-control.docked .composer-fields {
+  padding: 1em;
+}
+
+// Hide the dark overlay when docked
+#reply-control.docked ~ .composer-popup-container {
+  display: none !important;
+}
