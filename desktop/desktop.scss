@@ -355,7 +355,8 @@ body #reply-control {
 body #reply-control.show-preview,
 body #reply-control.inline-composer,
 body #reply-control.fullscreen,
-body #reply-control.draft {
+body #reply-control.draft,
+body #reply-control.visible-floating {
   opacity: 1 !important;
   pointer-events: auto !important;
 }
