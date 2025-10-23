@@ -347,7 +347,15 @@ body.has-sidebar-page.has-full-page-chat #main-outlet-wrapper {
 }
 
 // HIDING THE REPLY MODAL when it is not inline
-body #reply-control:not(.inline-composer):not(.fullscreen):not(.draft) {
+body #reply-control {
   opacity: 0 !important;
   pointer-events: none !important;
+}
+
+body #reply-control.show-preview,
+body #reply-control.inline-composer,
+body #reply-control.fullscreen,
+body #reply-control.draft {
+  opacity: 1 !important;
+  pointer-events: auto !important;
 }
