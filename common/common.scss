@@ -132,12 +132,16 @@ pre {
   }
 }
 
+.grippie {
+  background-color: #fff;
+}
+
 .open .grippie {
   border-radius: 10px 10px 0 0;
   opacity: 0.4;
 
   &::before {
-    border-color: var(--gf-primary-low-or-low-mid, $primary-low);
+    border-color: var(--primary-medium);
   }
 }
 
