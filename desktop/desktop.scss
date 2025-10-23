@@ -348,7 +348,8 @@ body.has-sidebar-page.has-full-page-chat #main-outlet-wrapper {
 
 // HIDING THE REPLY MODAL when it is not inline
 body #reply-control:not(.inline-composer),
-body #reply-control:not(.fullscreen) {
-  // opacity: 0 !important;
-  // pointer-events: none !important;
+body #reply-control:not(.fullscreen),
+body #reply-control:not(.draft) {
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
