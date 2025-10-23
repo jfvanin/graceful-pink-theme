@@ -12,4 +12,7 @@ $gf-header-bg: dark-light-choose($header_background, $secondary-very-high);
     )};
 
   --primary-medium: #2D1817AA; 
+  --default-brown-text: #2D1817;
+  --light-background: linear-gradient(to bottom, #FDF2F2, #fffbfb);
+  --light-background-solid: #FDF2F2; /* Fallback solid color */
 }

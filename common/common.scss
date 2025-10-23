@@ -12,10 +12,7 @@
   left: 0;
   height: 100vh;
   width: 100vw;
-  background-color: var(
-    --gf-primary-very-low-or-primary-low,
-    $primary-very-low
-  );
+  background-color: var(--light-background);
 
   @if $no-background-image == "false" {
     @if $background-image != "default" {
@@ -467,4 +464,12 @@ body.has-full-page-chat {
 
 .popup-tip {
   bottom: 0;
+}
+
+.select-kit.dropdown-select-box.composer-actions .select-kit-header {
+  border: none !important;
+}
+
+.d-editor-textarea-wrapper {
+  background-color: var(--light-background);
 }
