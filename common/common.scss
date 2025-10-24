@@ -59,7 +59,7 @@
   }
 
   @media screen and (width <= 775px) {
-    padding: 0;
+    padding: 0 !important
   }
 
   // @include box-shadow;
