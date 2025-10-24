@@ -48,7 +48,7 @@
 #main-outlet {
   box-sizing: border-box;
   margin: 0 auto;
-  // background: var(--secondary);
+  background: var(--secondary);
   border-radius: 8px;
   width: 100%;
   max-width: 980px;
@@ -62,9 +62,9 @@
     padding: 1.5em;
   }
 
-  // @include box-shadow;
+  @include box-shadow;
 
-  .container.list-container,
+  /*.container.list-container,
   .container.viewing-self,
   .container.body-page {
     background: var(--secondary);
@@ -81,7 +81,7 @@
     padding: 0 6px;
 
     @include box-shadow;
-  }
+  }*/
 
 }
 
