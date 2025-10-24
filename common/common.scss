@@ -48,7 +48,7 @@
 #main-outlet {
   box-sizing: border-box;
   margin: 0 auto;
-  background: var(--secondary);
+  // background: var(--secondary);
   border-radius: 8px;
   width: 100%;
   max-width: 980px;
@@ -62,7 +62,17 @@
     padding: 1.5em;
   }
 
-  @include box-shadow;
+  // @include box-shadow;
+
+  .topic-post {
+    background: var(--secondary);
+    border-radius: 8px;
+    margin: 6px 0;
+    padding: 0 6px;
+
+    @include box-shadow;
+  }
+
 }
 
 code,
