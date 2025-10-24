@@ -64,7 +64,9 @@
 
   // @include box-shadow;
 
-  .container:not(#main-container) {
+  .container.list-container,
+  .container.viewing-self,
+  .container.body-page {
     background: var(--secondary);
     border-radius: 8px;
     padding: 6px;
