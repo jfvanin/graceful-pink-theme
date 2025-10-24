@@ -12,7 +12,7 @@
   left: 0;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(to bottom, #FDF2F2, #fffbfb);
+  background: var(--light-background);
 
   @if $no-background-image == "false" {
     @if $background-image != "default" {
@@ -104,6 +104,8 @@ pre {
       border-color: var(--tertiary);
     }
   }
+
+  background: linear-gradient(to right, var(--light-background-solid), var(--light-background-solid-end)) !important;
 }
 
 #reply-control {
@@ -130,7 +132,7 @@ pre {
 }
 
 .grippie {
-  background-color: #fff;
+  background-color: var(--light-background-solid);
 }
 
 .open .grippie {
@@ -472,4 +474,10 @@ body.has-full-page-chat {
 
 .d-editor-textarea-wrapper {
   background: var(--light-background);
+}
+
+input.ember-text-field,
+.d-editor-textarea-wrapper,
+.select-kit.combo-box .select-kit-header {
+  border: none;
 }
