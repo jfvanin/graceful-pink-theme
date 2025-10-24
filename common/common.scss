@@ -131,6 +131,9 @@ pre {
     &:hover {
       border-color: var(--vital-pink5);
       color: var(--vital-pink5);
+      svg {
+        fill: var(--vital-pink5);
+      }
     }
   }
 
