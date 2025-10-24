@@ -75,6 +75,14 @@
 
 }
 
+.more-topics__container {
+  background: var(--secondary);
+  border-radius: 8px;
+  padding: 6px;
+
+  @include box-shadow;
+}
+
 code,
 pre {
   white-space: pre-wrap;
