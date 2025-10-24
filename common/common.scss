@@ -105,7 +105,7 @@ pre {
     }
   }
 
-  background: linear-gradient(to right, var(--vital-pink2), var(--vital-pink4)) !important;
+  background: linear-gradient(to right, var(--vital-pink1), var(--vital-pink2)) !important;
 }
 
 #reply-control {
@@ -472,7 +472,7 @@ body.has-full-page-chat {
   border: none !important;
 }
 
-#reply-control .reply-area {
+#reply-control:not(.inline-composer) .reply-area {
   background: var(--light-background);
 }
 
