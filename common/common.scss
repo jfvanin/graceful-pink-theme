@@ -129,7 +129,8 @@ pre {
 .btn-primary {
   .discourse-no-touch & {
     &:hover {
-      border-color: var(--tertiary);
+      border-color: var(--vital-pink5);
+      color: var(--vital-pink5);
     }
   }
 
