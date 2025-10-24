@@ -472,8 +472,12 @@ body.has-full-page-chat {
   border: none !important;
 }
 
-.d-editor-textarea-wrapper {
+.reply-control .reply-area {
   background: var(--light-background);
+}
+
+.d-editor-textarea-wrapper {
+  background: #FFFFFF;
 }
 
 input.ember-text-field,
