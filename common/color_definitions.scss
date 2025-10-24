@@ -13,7 +13,14 @@ $gf-header-bg: dark-light-choose($header_background, $secondary-very-high);
 
   --primary-medium: #2D1817AA; 
   --default-brown-text: #2D1817;
-  --light-background-solid: #FDF2F2;
+  --vital-pink: #EB7E7E;
+  --vital-pink2: #ed8a8a;
+  --vital-pink3: #f0a5a5;
+  --vital-pink4: #f4bfbf;
+  --vital-pink5: #f9d8d8;
+  --calm-light: #FDF2F2;
+  --nude-harmony: #D4B499;
+  --light-background-solid: var(--calm-light);
   --light-background-solid-end: #FFFBFB;
   --light-background: linear-gradient(to bottom, var(--light-background-solid), var(--light-background-solid-end));
 }
