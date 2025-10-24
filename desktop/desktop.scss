@@ -358,7 +358,8 @@ body #reply-control.show-preview,
 body #reply-control.inline-composer,
 body #reply-control.fullscreen,
 body #reply-control.draft,
-body #reply-control.visible-floating {
+body #reply-control.visible-floating,
+body #composer-action-reply {
   opacity: 1 !important;
   pointer-events: auto !important;
 }
