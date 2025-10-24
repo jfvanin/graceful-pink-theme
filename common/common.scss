@@ -66,8 +66,14 @@
 
   .container.list-container,
   .container.viewing-self,
-  .container.body-page {
-    background: var(--secondary);
+  .container.body-page,
+  .container.badges,
+  .container.groups-index,
+  .reviewable,
+  section.container,
+  section .container,
+  .boxed.white.admin-content {
+    background: var(--secondary) !important;
     border-radius: 8px;
     padding: 6px;
 
@@ -77,7 +83,7 @@
   .topic-post {
     background: var(--secondary);
     border-radius: 8px;
-    margin: 6px 0;
+    margin: 8px 0;
     padding: 0 6px;
 
     @include box-shadow;
