@@ -64,6 +64,14 @@
 
   // @include box-shadow;
 
+  .container:not(#main-container) {
+    background: var(--secondary);
+    border-radius: 8px;
+    padding: 6px;
+
+    @include box-shadow;
+  }
+
   .topic-post {
     background: var(--secondary);
     border-radius: 8px;
